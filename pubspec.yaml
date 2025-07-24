@@ -24,13 +24,6 @@ topics:
   - language
   - extractive
   - text
-
-platforms:
-  - linux
-  - macos
-  - windows
-  - web
-
 executables: {}
 
 screenshots:
