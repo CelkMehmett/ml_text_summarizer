@@ -1,0 +1,39 @@
+name: ml_text_summarizer
+description: >
+  A lightweight and multilingual extractive text summarizer written in pure Dart.
+  Supports English and Turkish out of the box. Easily extendable to any language.
+version: 1.0.0
+repository: https://github.com/CelkMehmett/ml_text_summarizer
+homepage: https://github.com/CelkMehmett/ml_text_summarizer
+issue_tracker: https://github.com/CelkMehmett/ml_text_summarizer/issues
+documentation: https://pub.dev/documentation/ml_text_summarizer/latest/
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  collection: ^1.18.0
+
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^3.0.0
+
+topics:
+  - nlp
+  - summarization
+  - language
+  - extractive
+  - text
+
+platforms:
+  - linux
+  - macos
+  - windows
+  - web
+
+executables: {}
+
+screenshots:
+  - description: 'Summarizing Turkish and English text with TextSummarizer'
+    path: example/summary_preview.png
+
